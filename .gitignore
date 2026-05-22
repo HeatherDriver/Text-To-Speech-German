@@ -1,0 +1,16 @@
+# Environment variables (API keys)
+.env
+
+# Virtual environment
+venv/
+
+# Database and audio files
+db/
+audio/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+*.log
