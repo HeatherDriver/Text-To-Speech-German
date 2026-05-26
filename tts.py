@@ -50,6 +50,7 @@ def generate_audio(text: str, voice: str = DEFAULT_VOICE, speed: float = 0.8) ->
         voice=voice,
         input=text,
         response_format="mp3",
+        speed=speed
     )
     output_path.write_bytes(response.content)
  
