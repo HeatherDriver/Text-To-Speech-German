@@ -6,8 +6,8 @@ A command-line tool that generates German pronunciation audio files using OpenAI
 
 ## How to use it
 
-1. Type a German sentence into the command line as an argument when you run main.py
-2. The tool calls OpenAI's TTS API and generates a slow, clear `.mp3` file
+1. Type a German sentence into the command line as an argument when you run `main.py`
+2. The tool calls OpenAI's TTS API and generates a slow, clear `.mp3` file of the sentence
 3. The sentence and audio file path are saved to a local SQLite database
 4. When needed, you manually copy the `.mp3` file into Anki as a card audio attachment to supplement your written sentence
 
